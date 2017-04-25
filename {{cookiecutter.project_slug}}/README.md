@@ -10,13 +10,13 @@ Project Organization
     ├── AUTHORS.md
     ├── LICENSE
     ├── README.md
-    ├── bin
+    ├── bin                          Compiled executables and executable secondary scripts.
     ├── config
     ├── data
-    │   ├── external
-    │   ├── interim
-    │   ├── processed
-    │   └── raw
+    │   ├── external                 Data derived from my other projects. Copy or ln -s.
+    │   ├── interim                  Interim data GENERATED as part of this project.
+    │   ├── processed                Final data GENERATED as part of this project.
+    │   └── raw                      Data directly downloaded or obtained from the field. Copy or ln -s.
     ├── docs
     ├── notebooks
     ├── reports
