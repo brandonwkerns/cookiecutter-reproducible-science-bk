@@ -5,25 +5,16 @@
 ####################################################################
 # I am a comment, and I want to say that the variable CC will be
 # the compiler to use.
-CC=g++
+SH=/bin/sh
 # Hey!, I am comment number 2. I want to say that CFLAGS will be the
 # options I'll pass to the compiler.
 CFLAGS=-c -Wall
 
-all: hello
+all: hello_world.txt
 
-hello: main.o factorial.o hello.o
-    $(CC) main.o factorial.o hello.o -o hello
-
-main.o: main.cpp
-    $(CC) $(CFLAGS) main.cpp
-
-factorial.o: factorial.cpp
-    $(CC) $(CFLAGS) factorial.cpp
-
-hello.o: hello.cpp
-    $(CC) $(CFLAGS) hello.cpp
+hello_world.txt: hello_world.sh
+	$(SH) hello_world.sh
 
 clean:
-    rm *o hello
+	rm hello_world.txt
 

@@ -19,8 +19,8 @@ Project Organization
     │   ├── interim                  Interim data GENERATED as part of this project.
     │   ├── processed                Final data GENERATED as part of this project.
     │   └── raw                      Data directly downloaded or obtained from the field. Copy or ln -s.
-    ├── docs                         Documentation files and my technical notes.
+    ├── notes                        Documentation files and my technical notes.
     ├── notebooks                    Jupyter notebooks, if I ever start using them.
-    ├── reports
-    │   └── figures
+    ├── docs                         The manuscript, proposal, or final report.
+    │   └── figures                  The final figure files. Preferably png and pdf ready to upload for publication.
     └── src                          Source code for Matlab, Python, ect. functions.
