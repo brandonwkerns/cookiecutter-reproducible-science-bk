@@ -3,6 +3,9 @@ Reproducible Science
 
 A boilerplate for reproducible and transparent science with close resemblances to the philosophy of [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science): *A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.*
 
+Modified by Brandon Kerns as follows:
+--Include a Makefile.
+
 Requirements
 ------------
 Install `cookiecutter` command line: `pip install cookiecutter`    

@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+#EMACS backup files.
+*~
+
 # C and Fortran extensions
 *.so
 *.dylib
